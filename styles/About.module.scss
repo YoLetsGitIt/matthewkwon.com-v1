@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.about {
+    width: 100%;
+}
+
+.header {
+    color: #143D66;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.techList li {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        min-height: 90vh;
+        flex-direction: row;
+    }
+
+    .about {
+        width: 40%;
+    }
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    min-height: 90vh;
+    padding: 0 10%;
+    align-items: center;
+    flex-direction: column-reverse;
+    color: #3B5978;
+}
+
+.profile {
+    width: 100%;
+    text-align: center;
+    h1 {
+        font-weight: normal;
+    }
+    span {
+        font-weight: bold;
+        color: #143D66;
+    }
+}
+
+.intro {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.socials {
+    .link {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .profile {
+        width: 50%;
+        text-align: left;
+    }
+}
