@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    min-height: 90vh;
+    min-height: 85vh;
     padding: 0 10%;
     align-items: center;
     flex-direction: column-reverse;
@@ -24,17 +24,10 @@
     margin-bottom: 0.5rem;
 }
 
-.socials {
-    .link {
-        width: 30px;
-        height: 30px;
-        margin-right: 20px;
-    }
-}
-
 @media only screen and (min-width: 600px) {
     .container {
         flex-direction: row;
+        padding: 0 10% 10rem 10%;
     }
 
     .profile {

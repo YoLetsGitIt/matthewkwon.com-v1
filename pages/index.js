@@ -6,6 +6,7 @@ import Github from '../assets/img/github.svg'
 import Instagram from '../assets/img/instagram.svg'
 
 import styles from '../styles/Home.module.scss'
+import Socials from '../components/Socials'
 
 export default function Home() {
 
@@ -16,17 +17,7 @@ export default function Home() {
           Hi, I‘m<span>{' '}Matthew</span>
         </h1>
         <h1>a <span>Front-end Developer</span> and <span>UX Designer</span> in <span>Melbourne</span></h1>
-        <div className={styles.socials}>
-          <a href='https://github.com/YoLetsGitIt' target='_blank' rel="noreferrer">
-            <Image width="30px" height="30px" src={Github} alt="github"/>
-          </a>
-          <a style={{marginLeft: '20px', marginRight: '20px'}} href='https://www.linkedin.com/in/mmkwon' target='_blank' rel="noreferrer">
-            <Image width="30px" height="30px" src={LinkedIn} alt="linkedin"/>
-          </a>
-          <a href='https://instagram.com/matthewkwon_' target='_blank' rel="noreferrer">
-            <Image width="30px" height="30px" className={styles.link} src={Instagram} alt="instagram"/>
-          </a>
-        </div>
+        <Socials/>
       </div>
       <div>
 
