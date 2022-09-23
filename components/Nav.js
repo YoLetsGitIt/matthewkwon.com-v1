@@ -28,7 +28,7 @@ const Nav = () => {
     <nav className={styles.container} style={{backgroundColor: navState === 'nav_menu' ? "#ffffff" : "#C3D4E5"}}>
       <div className={styles.logo}>
       <Link href="/">
-        <Image src={Logo} alt="logo" style={{height: "30px", width: "30px"}} />
+        <Image src={Logo} alt="logo" style={{height: "30px", width: "30px", cursor: "pointer"}} />
       </Link>
       </div>
       <p>|</p>
