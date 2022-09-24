@@ -1,13 +1,19 @@
+import Image from 'next/image'
 import React from 'react'
+
+import Profile from '../assets/img/profile.jpg'
 
 import styles from '../styles/About.module.scss'
 
 export const about = () => {
+
+  const descriptions = ['Developer', 'UX Developer', 'Foodie', 'Aspiring Cook']
+
   return (
     <div className={styles.container}>
       <div className={styles.about}>
         <h1 className={styles.header}>
-          About me:
+          About me: <span></span>
         </h1>
         <p>
           Hello! My name is Matthew and I‘m an ambitious learner, passionate in anything from
@@ -29,8 +35,8 @@ export const about = () => {
           </ul>
         </p>
       </div>
-      <div>
-
+      <div className={styles.profile}>
+        <Image src={Profile} alt="profile" />
       </div>
     </div>
   )

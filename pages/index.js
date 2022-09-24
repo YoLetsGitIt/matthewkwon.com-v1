@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
@@ -28,9 +27,6 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Matthew Kwon</title>
-      </Head>
       <div className={styles.profile}>
         <h1 className={styles.intro}>
           Hi, I‘m<span>{' '}Matthew</span>

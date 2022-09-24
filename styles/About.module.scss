@@ -7,6 +7,12 @@
 
 .about {
     width: 100%;
+    margin-top: -3rem;
+}
+
+.profile {
+    width: 100%;
+    z-index: -1;
 }
 
 .header {
@@ -26,6 +32,10 @@
     }
 
     .about {
-        width: 40%;
+        width: 50%;
+    }
+
+    .profile {
+        width: 50%;
     }
 }
