@@ -28,6 +28,9 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Matthew Kwon</title>
+      </Head>
       <div className={styles.profile}>
         <h1 className={styles.intro}>
           Hi, I‘m<span>{' '}Matthew</span>
