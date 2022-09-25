@@ -2,12 +2,10 @@ import React, {useState} from 'react'
 import Image from 'next/image'
 
 import Logo from '../assets/img/logo.svg'
-import Contact from '../assets/img/contact.svg'
 import Link from 'next/link'
 
 import styles from '../styles/Nav.module.scss'
 import Socials from './Socials'
-import { NodeNextRequest } from 'next/dist/server/base-http/node'
 
 const Nav = () => {
 
@@ -85,10 +83,10 @@ const Nav = () => {
             top: 15vh;
             padding-top: 1.5rem;
             padding-left: 1rem;
-            height: calc(85vh);
+            max-height: calc(85vh);
             width: calc(100vw - 2rem);
             flex-direction: column;
-            transform: translateY(-120%);
+            transform: translateY(-150%);
             transition: 0.5s ease-in-out;
             z-index: 1;
             background-color: #C3D4E5;

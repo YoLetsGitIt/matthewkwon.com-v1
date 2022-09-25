@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-import Profile from '../assets/img/profile.jpg'
+import Profile from '../assets/img/profile.png'
 
 import styles from '../styles/About.module.scss'
 
