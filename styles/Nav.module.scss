@@ -29,7 +29,7 @@
 }
 
 .menuItem {
-    font-size: 3.25rem;
+    font-size: 2rem;
     cursor: pointer;
 
     &:hover {
@@ -48,6 +48,10 @@
 @media only screen and (min-width: 600px) {
     .logo {
         padding-left: 4.5rem;
+    }
+
+    .menuItems {
+        font-size: 3.25rem;
     }
 
     .menuItemsDescription {

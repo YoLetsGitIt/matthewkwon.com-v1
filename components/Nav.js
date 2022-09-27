@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 
 import Logo from '../assets/img/logo.svg'
@@ -21,6 +21,14 @@ const Nav = () => {
       setMenuButton('M E N U')
     }
   }
+
+  useEffect(() => {
+    if (navState == "nav_menu nav_active") {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [navState]);
 
   return (
     <nav className={styles.container} style={{backgroundColor: navState === 'nav_menu' ? "#ffffff" : "#C3D4E5"}}>
@@ -83,7 +91,7 @@ const Nav = () => {
             top: 15vh;
             padding-top: 1.5rem;
             padding-left: 1rem;
-            max-height: calc(85vh);
+            height: 85vh;
             width: calc(100vw - 2rem);
             flex-direction: column;
             transform: translateY(-150%);

@@ -18,19 +18,18 @@
         color: #143D66;
     }
     padding-bottom: 5rem;
-    margin-top: -7rem;
+    margin-top: -1rem;
 }
 
 .animation {
     margin: 0;
     width: 100%;
     height: 50vh;
-    margin-top: -5rem;
     z-index: -1;
 }
 
 .intro {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
 }
 
@@ -38,6 +37,10 @@
     .container {
         flex-direction: row;
         padding: 0 10% 10rem 10%;
+    }
+
+    .intro {
+        font-size: 5rem;
     }
 
     .profile {
@@ -49,6 +52,5 @@
     .animation {
         width: 50%;
         height: 75vh;
-        margin-top: 0;
     }
 }
