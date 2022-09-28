@@ -1,10 +1,5 @@
-import Image from 'next/image'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
-
-import LinkedIn from '../assets/img/linkedin.svg'
-import Github from '../assets/img/github.svg'
-import Instagram from '../assets/img/instagram.svg'
 
 import styles from '../styles/Home.module.scss'
 import Socials from '../components/Socials'
@@ -31,7 +26,7 @@ export default function Home() {
         <h1 className={styles.intro}>
           Hi, I‘m<span>{' '}Matthew</span>
         </h1>
-        <h1>a <span>Front-end Developer</span> and <span>UX Designer</span> in <span>Melbourne</span></h1>
+        <h1>a <span>Front-end Developer</span> and <span>UX Designer</span> in <span>Melbourne, Australia</span></h1>
         <Socials/>
       </div>
       <div className={styles.animation}>
